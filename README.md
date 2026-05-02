@@ -2,6 +2,30 @@
 
 A personalized shopping platform where users shop based on their religious and cultural community identity.
 
+## Primary Tech Stack / Tools Used
+
+### Frontend
+- **React 18** - UI library
+- **Vite** - Build tool and dev server
+- **React Router v6** - Client-side routing
+- **Axios** - HTTP client for API calls
+- **CSS3** - Styling with custom CSS
+- **Google Fonts** - Playfair Display (headings) & Inter (body)
+
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web framework
+- **CORS** - Cross-origin resource sharing
+- **ES6 Modules** - Modern JavaScript syntax
+
+### Deployment & Tools
+- **Vercel** - Hosting platform (frontend + backend)
+- **Git & GitHub** - Version control
+- **npm** - Package manager
+
+### Data Storage
+- **JSON files** - Product and community data (backend/data/)
+
 ## Tech Stack
 
 ### Frontend
@@ -11,11 +35,12 @@ A personalized shopping platform where users shop based on their religious and c
 - CSS Modules for styling
 - Google Fonts (Playfair Display, Inter)
 
-### Backend
+### Backend (Detailed)
 - Node.js with Express
 - RESTful API architecture
 - CORS enabled
 - JSON file-based data store
+- ES6 module syntax
 
 ## Deployment
 
@@ -78,51 +103,4 @@ App runs on http://localhost:5173
 
 Open http://localhost:5173 in your browser
 
-## Features Implemented
-
-1. **Community Selection** - 5 communities with localStorage persistence
-2. **Personalized Home** - Dynamic content based on selected community
-3. **Product Catalog** - 20+ products across communities
-4. **Product Details** - Full product page with VTO modal
-5. **Shopping Cart** - Add/remove items, quantity management
-6. **Responsive Design** - Mobile-first approach
-
-## Design Decisions
-
-- **Separation of Concerns**: Clean frontend/backend split for scalability
-- **RESTful API**: Standard HTTP methods for predictable behavior
-- **localStorage**: Client-side community preference for quick access
-- **Component Architecture**: Reusable React components
-- **CSS Modules**: Scoped styling to prevent conflicts
-
-## What I Would Improve
-
-- Add authentication and user profiles
-- Implement real payment gateway integration
-- Add product search and filtering
-- Implement wishlist functionality
-- Add product reviews and ratings system
-- Use PostgreSQL/MongoDB for production data
-- Add Redis for caching
-- Implement CDN for product images
-- Add comprehensive error handling
-- Write unit and integration tests
-- Add analytics tracking
-- Implement SEO optimization
-- Add PWA capabilities for mobile
-
-## API Endpoints
-
-- `GET /api/products` - Get all products (with community filter)
-- `GET /api/products/:id` - Get single product
-- `GET /api/categories/:community` - Get categories by community
-- `GET /api/communities` - Get all communities
-
-## Brand Guidelines
-
-- Primary: #0D1B2A (Deep Navy)
-- Accent: #C9A84C (Gold)
-- Background: #F9F7F4
-- Surface: #FFFFFF
-- Headings: Playfair Display
-- Body: Inter
+##
