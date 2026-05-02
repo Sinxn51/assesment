@@ -1,0 +1,87 @@
+[
+  {
+    "id": "muslim",
+    "name": "Muslim",
+    "icon": "🕌",
+    "categories": [
+      { "id": "women_wear", "name": "Women's Wear" },
+      { "id": "men_wear", "name": "Men's Wear" },
+      { "id": "accessories", "name": "Accessories" },
+      { "id": "religious_items", "name": "Religious Items" },
+      { "id": "beauty", "name": "Halal Beauty" },
+      { "id": "home_decor", "name": "Islamic Decor" }
+    ],
+    "hero": {
+      "title": "Discover Your Faith, Your Style",
+      "subtitle": "Curated collection for the modern Muslim"
+    }
+  },
+  {
+    "id": "hindu",
+    "name": "Hindu",
+    "icon": "🕉️",
+    "categories": [
+      { "id": "women_wear", "name": "Ethnic Wear" },
+      { "id": "men_wear", "name": "Traditional Wear" },
+      { "id": "religious_items", "name": "Puja Essentials" },
+      { "id": "accessories", "name": "Spiritual Accessories" },
+      { "id": "home_decor", "name": "Temple Decor" },
+      { "id": "festive", "name": "Festival Collection" }
+    ],
+    "hero": {
+      "title": "Celebrate Tradition with Grace",
+      "subtitle": "From festivals to everyday devotion"
+    }
+  },
+  {
+    "id": "christian",
+    "name": "Christian",
+    "icon": "✝️",
+    "categories": [
+      { "id": "women_wear", "name": "Modest Fashion" },
+      { "id": "men_wear", "name": "Church Attire" },
+      { "id": "religious_items", "name": "Faith Essentials" },
+      { "id": "accessories", "name": "Christian Jewelry" },
+      { "id": "books", "name": "Devotional Books" },
+      { "id": "gifts", "name": "Inspirational Gifts" }
+    ],
+    "hero": {
+      "title": "Walk in Faith, Dress with Grace",
+      "subtitle": "Modest and meaningful fashion"
+    }
+  },
+  {
+    "id": "sikh",
+    "name": "Sikh",
+    "icon": "☬",
+    "categories": [
+      { "id": "men_wear", "name": "Punjabi Wear" },
+      { "id": "women_wear", "name": "Ethnic Collection" },
+      { "id": "accessories", "name": "Turban & Accessories" },
+      { "id": "religious_items", "name": "Sacred Items" },
+      { "id": "home_decor", "name": "Gurdwara Decor" },
+      { "id": "festive", "name": "Gurpurab Special" }
+    ],
+    "hero": {
+      "title": "Embrace Your Heritage",
+      "subtitle": "Traditional Punjabi elegance"
+    }
+  },
+  {
+    "id": "buddhist",
+    "name": "Buddhist",
+    "icon": "☸️",
+    "categories": [
+      { "id": "religious_items", "name": "Meditation Essentials" },
+      { "id": "accessories", "name": "Spiritual Accessories" },
+      { "id": "men_wear", "name": "Traditional Robes" },
+      { "id": "home_decor", "name": "Zen Decor" },
+      { "id": "books", "name": "Dharma Books" },
+      { "id": "wellness", "name": "Mindfulness" }
+    ],
+    "hero": {
+      "title": "Find Peace in Every Purchase",
+      "subtitle": "Mindful living, conscious shopping"
+    }
+  }
+]
