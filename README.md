@@ -17,6 +17,28 @@ A personalized shopping platform where users shop based on their religious and c
 - CORS enabled
 - JSON file-based data store
 
+## Deployment
+
+### Deploy to Vercel (Recommended)
+
+**Quick Deploy:**
+```bash
+npm install -g vercel
+vercel login
+vercel
+```
+
+**Or via GitHub:**
+1. Push code to GitHub
+2. Go to https://vercel.com
+3. Click "Add New Project"
+4. Import your repository
+5. Click "Deploy"
+
+The app will be live at `https://your-app.vercel.app`
+
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions.
+
 ## Project Structure
 
 ```
